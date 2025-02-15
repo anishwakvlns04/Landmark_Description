@@ -1,0 +1,13 @@
+# Core dependencies
+streamlit==1.30.0
+requests==2.31.0
+pillow==10.2.0
+numpy==1.26.4
+
+# Hugging Face Transformers for local inference (optional)
+transformers==4.37.2
+torch==2.1.2
+sentencepiece==0.1.99  # Required for some Hugging Face models
+
+# For handling JSON responses efficiently (optional but useful)
+json5==0.9.14
